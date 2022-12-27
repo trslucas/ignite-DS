@@ -45,7 +45,8 @@ var colors = {
   ignite300: "#00B37E",
   ignite500: "#00875F",
   ignite700: "#015F43",
-  ignite900: "#00291D"
+  ignite900: "#00291D",
+  test: "#FFF"
 };
 var fontSizes = {
   xxs: "0.625rem",
@@ -483,6 +484,45 @@ function MultiStep({ size, currentStep = 1 }) {
   ] });
 }
 MultiStep.displayName = "MultiStep";
+
+// src/components/NavigationBar/styles.ts
+var NavBarMenu = styled("nav", {
+  padding: "$6",
+  backgroundColor: "pink",
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "space-between"
+});
+var BrandLogo = styled("div", {
+  marginLeft: "$20",
+  backgroundColor: "$gray800",
+  borderRadius: "50%",
+  width: "$20",
+  height: "$20",
+  cursor: "pointer",
+  svg: {
+    width: "100%",
+    height: "100%",
+    objectFit: "cover",
+    borderRadius: "inherit"
+  }
+});
+var MenuLinks = styled("div", {
+  display: "flex",
+  alignItems: "baseline",
+  justifyContent: "space-between",
+  gap: "$4",
+  marginRight: "$20"
+});
+
+// src/components/NavigationBar/index.tsx
+import { jsx as jsx5, jsxs as jsxs4 } from "react/jsx-runtime";
+function NavigationBar(size) {
+  return /* @__PURE__ */ jsxs4(NavBarMenu, { children: [
+    /* @__PURE__ */ jsx5(BrandLogo, {}),
+    /* @__PURE__ */ jsx5(MenuLinks, {})
+  ] });
+}
 export {
   Avatar2 as Avatar,
   Box,
@@ -490,6 +530,7 @@ export {
   Checkbox2 as Checkbox,
   Heading,
   MultiStep,
+  NavigationBar,
   Text,
   TextArea,
   TextInput
