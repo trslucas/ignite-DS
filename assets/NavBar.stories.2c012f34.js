@@ -1,0 +1,2 @@
+import{N as e,T as r}from"./index.eba41bf3.js";import{a as n,F as t,j as a}from"./jsx-runtime.96373e0a.js";import"./index.427b3e73.js";import"./iframe.edbb9114.js";import"./index.bc699df1.js";const m={title:"Data display/MenuBar",component:e,args:{children:n(t,{children:[a(r,{children:"Menu"}),a(r,{children:"Menu"}),a(r,{children:"Menu"}),a(r,{children:"Menu"})]})},argTypes:{children:{control:{type:null}}}},d={},p=["Primary"];export{d as Primary,p as __namedExportsOrder,m as default};
+//# sourceMappingURL=NavBar.stories.2c012f34.js.map

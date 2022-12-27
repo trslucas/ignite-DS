@@ -1,0 +1,2 @@
+import{A as t}from"./index.eba41bf3.js";import"./index.427b3e73.js";import"./iframe.edbb9114.js";import"./index.bc699df1.js";import"./jsx-runtime.96373e0a.js";const c={title:"Data display/Avatar",component:t,args:{src:"https://github.com/trslucas.png",alt:"Lucas Trindade"},argTypes:{src:{control:{type:"text"}}}},p={},e={args:{src:void 0}},m=["Primary","WithFallback"];export{p as Primary,e as WithFallback,m as __namedExportsOrder,c as default};
+//# sourceMappingURL=Avatar.stories.a3ea20be.js.map
